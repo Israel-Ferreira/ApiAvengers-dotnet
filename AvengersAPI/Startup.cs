@@ -45,13 +45,13 @@ namespace AvengersAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
             app.UseCors(x =>
             {
                 x.AllowAnyHeader();
                 x.AllowAnyMethod();
                 x.AllowAnyOrigin();
             });
+            app.UseMvc();
 
             app.UseSwagger();
             app.UseSwaggerUI(x => {
