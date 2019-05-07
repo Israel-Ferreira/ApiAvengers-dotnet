@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvengersAPI", "AvengersAPI\AvengersAPI.csproj", "{450880CF-FDE2-4CF2-90B6-E4B4305E9C8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modelo", "modelo", "{AE42E574-BE94-403A-9BEF-FB5F0AB79D6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controller", "controller", "{1C9AF2E4-572C-4662-AEA1-E8D2EF5285C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "negocio", "negocio", "{8EB27AFA-83D3-429C-9A67-F7DEFCF19B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvengersModelo", "AvengersModelo\AvengersModelo.csproj", "{29F98E3B-6406-41A7-B2D9-5B49BFFB4AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvengersNegocio", "AvengersNegocio\AvengersNegocio.csproj", "{BF9ACE17-6E9F-4FC3-A1EE-0FB70CBE0879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repositorio", "repositorio", "{7D22953B-8B16-43AE-8FD7-2FBAB7B1253F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvengersRepositorio", "AvengerRepositorio\AvengersRepositorio.csproj", "{F2279B2F-F35D-4514-BAF2-B2D15C09EBC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{450880CF-FDE2-4CF2-90B6-E4B4305E9C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450880CF-FDE2-4CF2-90B6-E4B4305E9C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450880CF-FDE2-4CF2-90B6-E4B4305E9C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450880CF-FDE2-4CF2-90B6-E4B4305E9C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F98E3B-6406-41A7-B2D9-5B49BFFB4AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F98E3B-6406-41A7-B2D9-5B49BFFB4AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F98E3B-6406-41A7-B2D9-5B49BFFB4AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F98E3B-6406-41A7-B2D9-5B49BFFB4AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9ACE17-6E9F-4FC3-A1EE-0FB70CBE0879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9ACE17-6E9F-4FC3-A1EE-0FB70CBE0879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9ACE17-6E9F-4FC3-A1EE-0FB70CBE0879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9ACE17-6E9F-4FC3-A1EE-0FB70CBE0879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2279B2F-F35D-4514-BAF2-B2D15C09EBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2279B2F-F35D-4514-BAF2-B2D15C09EBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2279B2F-F35D-4514-BAF2-B2D15C09EBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2279B2F-F35D-4514-BAF2-B2D15C09EBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{450880CF-FDE2-4CF2-90B6-E4B4305E9C8D} = {1C9AF2E4-572C-4662-AEA1-E8D2EF5285C3}
+		{29F98E3B-6406-41A7-B2D9-5B49BFFB4AFC} = {AE42E574-BE94-403A-9BEF-FB5F0AB79D6B}
+		{BF9ACE17-6E9F-4FC3-A1EE-0FB70CBE0879} = {8EB27AFA-83D3-429C-9A67-F7DEFCF19B95}
+		{F2279B2F-F35D-4514-BAF2-B2D15C09EBC5} = {7D22953B-8B16-43AE-8FD7-2FBAB7B1253F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E882FF5-0DD8-4FFF-AD61-8D5E39A81E94}
+	EndGlobalSection
+EndGlobal
